@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Plurals test</string>
+
+    <!-- Этот код мы используем для отладки: когда какой item выбирается системой -->
+    <plurals name="plurals_1">
+        <item quantity="zero">%d = zero</item>
+        <item quantity="one">%d = one</item>
+        <item quantity="two">%d = two</item>
+        <item quantity="few">%d = few</item>
+        <item quantity="many">%d = many</item>
+        <item quantity="other">%d = other</item>
+    </plurals>
+
+    <!-- А этот код мы используем для проверки того, как выглядит реальное склонение -->
+    <plurals name="plurals_2">
+        <item quantity="zero">нет котов</item>
+        <item quantity="one">%d кот</item>
+        <item quantity="two">%d кота</item>
+        <item quantity="few">%d кота</item>
+        <item quantity="many">%d котов</item>
+        <item quantity="other">%d котов</item>
+    </plurals>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
